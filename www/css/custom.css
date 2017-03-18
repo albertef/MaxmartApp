@@ -1,0 +1,93 @@
+body {
+   margin: 0;
+    font-family: 'open_sansbold';
+    padding-top: 60px;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('../fonts/opensans-extrabold-webfont.eot');
+    src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+         url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a, a img {
+    border: none;
+    outline: none;
+}
+.navbar {
+    padding:15px 0;
+}
+.navbar-inverse {
+    background-color: #DDD;
+    border-color: #DDD;
+}
+.navbar i.glyphicon-chevron-left {
+    float: left;
+    margin-top: 8px;
+    cursor:pointer;
+}
+i.dropdown-toggle {
+    margin-top: 8px;
+    cursor:pointer;
+}
+.title {
+    margin-left: 15px !important;
+}
+.title img {
+    width: 150px;
+    height: 22px;
+}
+
+.category .row {
+    margin: 25px 0;
+}
+.category .row h3 {
+    letter-spacing: -1px;
+    color: #244386;
+}
+.category .row a.btn {
+    background: #8fba2c;
+    border-color: #7ea523;
+    border-radius: 2px;
+    padding: 15px;
+}
+
+.js-textareacopybtn {
+	background-color: #5bc0de !important;
+    border-color: #46b8da !important;
+	padding: 5px 10px !important;
+    margin-top: 15px;
+}
+#trackResult {
+	opacity: 0;
+	margin-top: 40px;
+}

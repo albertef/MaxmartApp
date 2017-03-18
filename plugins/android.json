@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.mobileapp.maxmart"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.mobileapp.maxmart"
+        },
+        "cordova-plugin-keyboard": {
+            "PACKAGE_NAME": "com.mobileapp.maxmart"
+        },
+        "cordova-plugin-toaster": {
+            "PACKAGE_NAME": "com.mobileapp.maxmart"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.mobileapp.maxmart"
+        }
+    },
+    "dependent_plugins": {}
+}
